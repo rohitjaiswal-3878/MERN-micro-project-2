@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Delius+Unicase:wght@400;700&family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    
+}
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 9vh;
+    background-color: #6F6AF7;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .navbar-title span {
+    font-family:  "Delius Unicase", cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.navbar .navbar-links span {
+    color: white;
+    font-size: 18px;
+}
+
+.navbar .navbar-links span img {
+    margin-left: -2px;
+    object-fit: contain;
+    width: 7px;
+    height: 7px;
+}
+
+.navbar .navbar-links .navbar-links-search {
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
+    height: 30px;
+}
+
+.navbar .navbar-links .navbar-links-search input {
+    outline: none;
+    width: 125px;
+    height: 25px;
+    border: none;
+    margin-left: 7px;
+}
+
+.navbar .navbar-links .navbar-links-search img {
+    object-fit: contain;
+    width: 13px;
+    height: 13px;
+}
+.navbar .navbar-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .navbar-more img {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.main-content {
+    width: 100%;    
+    
+}
+.main-content-container { 
+    margin-top: 170px;  
+    margin-left: 50px;
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.main-content-container > div{
+    margin-top: 50px;
+}
+
+.main-content-section-1 {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.main-content-section-1 .section-1-img {
+    width: 30%;
+    height: 90%;
+}
+
+.main-content-section-1 .section-1-img img {
+    object-fit: contain;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 23px 2px;
+
+}
+
+.main-content-section-1 textarea{
+    font-weight: 400;
+    color: #6F7373;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #E5D8FF;
+    box-shadow: inset gray 0px 0px 23px 3px;
+}
+
+.main-content-section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    height: 150px;
+    width: 95%;
+}
+
+.main-content-section-2 div {
+    width: 20%;
+    height: 60%;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+    box-shadow: gray 0px 0px 15px 2px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.main-content-section-2 .section-2-div1 {
+    background-color: #929DFF;
+}
+.main-content-section-2 .section-2-div2 {
+    background-color: #734CF2;
+}
+.main-content-section-2 .section-2-div3 {
+    background-color: #D288FF;
+}
+.main-content-section-2 .section-2-div4 {
+    background-color: #000000;
+}
+
+.main-content-section-3 {
+    margin-top: 110px !important;
+    margin-bottom: 100px;
+    height: 450px;
+    width: 91%;
+    border-radius: 20px;
+    background-color: #483EFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-section-3 .section-3-div1 {
+    width: 35%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-content-section-3 .section-3-div1 div {
+    width: 70%;
+    height: 20%;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.main-content-section-3 .section-3-div1 .section-3-div1-child1 {
+    background-color: #BCE0F6;
+    color: black;
+    border: none;
+    font-weight: 700;
+    box-shadow: rgb(45, 45, 45) 0px 0px 15px 2px;
+
+}
+
+.main-content-section-3 .section-3-div2 {
+    width: 60%;
+    height: 90%;
+    background-color: white;
+    border-radius: 18px;
+    padding: 38px;
+}
+
+.main-content-section-3 .section-3-div2 div h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+    color: #04285A;
+}
+
+.main-content-section-3 .section-3-div2 div ul {
+    margin-top: 28px;
+    list-style-type: none;
+    text-indent: 17px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.main-content-section-3 .section-3-div2 div ul li {
+    margin-top: 18px;
+    color: #143565;
+}
+
+.main-content-section-3 .section-3-div2 div ul li span {
+    color : #04285A;
+    font-weight: 700;
+}
+.main-content-section-3 .section-3-div2 button {
+    position: relative;
+    top:120px;
+    left: 460px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.main-content-section-3 .section-3-div2 button img {
+    object-fit: contain;
+    width: 21px;
+    height: 21px;
+    margin-left: 4px;
+}
+
+
+.main-content .social-media {
+    float: right;
+    position: sticky;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 200px;
+    margin-top: 170px;
+}
+
+.main-content .social-media img {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+.support-icon {
+    position: fixed;
+    top: 540px;
+    left:1040px;
+}
+.support-icon img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
